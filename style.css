@@ -1,0 +1,40 @@
+
+.white-color{
+  color:#cbbde2;
+}
+.active-white{
+  color: #cbbde2 !important;
+}
+.active-white:hover{
+  color: white !important;
+  cursor: pointer;
+}
+.bd-text-purple-bright{
+  color: purple;
+}
+.btn-outline-purple{
+  border: 1px solid purple;
+}
+.btn-outline-purple:hover{
+  color: white;
+  background-color: purple;
+}
+
+.blue-color{
+  color: rgb(37, 64, 223);
+}
+.black-color{
+  color: black;
+}
+.black-color:hover{
+  color: blue;
+
+}
+#menu-color{
+  background-color: white !important;
+}
+@media all and (max-width: 621px) {
+  #menu-color {
+    background-color: lightblue !important;
+  }
+}
